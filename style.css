@@ -30,6 +30,7 @@ body {
   align-items: center;
 
   font-size: 10rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 .time-remaining {
