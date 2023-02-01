@@ -10,16 +10,18 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  color: white;
+  background-image: linear-gradient(0deg, #000000 60%, #250001);
+}
+
 .countdown {
   display: flex;
-  align-items: center;
   justify-content: center;
 
   width: 100vw;
   height: 100vh;
-
-  color: white;
-  background-color: black;
+  margin-top: 12.5rem;
 }
 
 .time-counter {
@@ -27,11 +29,19 @@ html {
   flex-direction: column;
   align-items: center;
 
-  font-size: 4rem;
+  font-size: 10rem;
+}
+
+.time-remaining {
+  color: #650d1b;
 }
 
 .time-counter .hours,
 .time-counter .minutes,
 .time-counter .seconds {
-  margin-left: 1.5rem;
+  margin-left: 7.5rem;
+}
+
+.time-label {
+  font-size: 2.5rem;
 }
